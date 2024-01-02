@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js Questions</title>
+  <link rel="icon" href="media/js.png">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a href="#"><i class='bx bxl-github'></i></a>
+  <h2 class="tittle">Javascript Questions</h2>
+  <h4>Test and improve your JavaScript knowledge with these questions.</h4>
+
+  <!-- progess section -->
+  <div class="progress">
+    <div class="bar-section">
+      <div class="bar-container">
+        <div class="bar"></div>
+      </div>
+      <span></span>
+    </div>
+
+    <div class="progressNum">
+      <div><i class='bx bx-check-circle'></i> Knew <span id="knew">0 Questions</span></div>
+      <div><i class='bx bx-leaf'></i> Learnt <span id="learnt">0 Questions</span></div>
+      <div><i class='bx bxs-chevrons-right'></i> Skipped <span id="skipped">0 Questions</span></div>
+      <div id="reset" class="reset"><i class='bx bx-reset' ></i> Reset</div>
+    </div>
+  </div>
+
+  <!-- question display -->
+  <div class="questions-section">
+    
+    <div class="questions">
+      <div class="qa" id="question-t"></div>
+      <div class="btn" id="reveal">Click to Reveal the Answer</div>
+    </div>
+    <div class="answer">
+      <div class="qa" id="answer-t"></div>
+      <div class="btn" id="hide">Hide the Answer</div>
+    </div>
+
+    
+  </div>
+
+  <div class="btns">
+    <button id="Knewbtn"><i class='bx bx-check-circle'></i> Already Know that</button>
+    <button id="learnbtn"><i class='bx bx-leaf'></i> Didn't Know that</button>
+    <button id="skipbtn"><i class='bx bxs-chevrons-right'></i> Skip Question</button>
+  </div>
+  <footer>
+    <span>DEVELOPER | DEX</span>
+  </footer>
+
+  <script src="scripts/Questions.js"></script>
+  <script src="scripts/App.js"></script>
+</body>
+</html>
